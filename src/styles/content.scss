@@ -1,0 +1,29 @@
+.container {
+    max-width: 65.5rem;
+    width: 100%;
+
+}
+
+main {
+    width: 100%;
+    margin-top: 5.625rem;
+
+    .movies-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4.75rem;
+        list-style: none;
+    }
+}
+
+.container{
+    margin: 20px;
+    background-color: fixed;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
